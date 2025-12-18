@@ -1,12 +1,24 @@
-- 👋 Hi, I’m @Sudha- mandhala
-- 👀 I’m interested in doing diffenent Software projects
-- 🌱 I’m currently learning handling life with different circumstances.
-- 💞️ I’m looking to collaborate on working with more honourable developers to gain more knowledge
-- 📫 How to reach me ... through linkdin,naukari,indeed patforms.
-- 😄 Pronouns: ...she,her
-- ⚡ Fun fact: ... Every brain sometimes bear strain,Collide Thoughts bring sunshine,come with joyful rain
+# Sudha_1011 — Java Concepts Project
 
-<!---
-Sudha-hue/Sudha-hue is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This repository resembles core Java programming concepts moulded into modular folders. Built using **EditPlus IDE**, it passion on coding,interest, continuous, hands-on writing code and practical application of object-oriented principles.
+
+## 📁 Folder Structure
+
+- **Access modifiers** — Examples of `public`, `private`, `protected`, and default access
+- **Blocks/local block** — Demonstrates static blocks, instance blocks, and local scopes
+- **Constructors** — Covers default, parameterized, and copy constructors
+- **Core Java** — Foundational Java syntax and logic
+- **Methods** — Method overloading, overriding, and return types
+
+## 🛠️ Technologies Used
+
+- Java (OOP concepts)
+- EditPlus IDE
+- Git & GitHub for version control
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sudha-hue/Sudha_1011.git
+
