@@ -1,0 +1,28 @@
+class Exmple 
+{
+	int x;
+	int y;
+	{
+		x=10;
+	System.out.println("IIB");
+	}
+	Exmple() {
+		y=20;
+	 System.out.println("NPc");
+	}
+	Exmple(int y){
+		this.y=y;
+	 System.out.println("IPc");	
+	 System.out.println(y);
+	}
+	public static void main(String[] args){
+	  System.out.println("MM");
+	  Exmple e = new Exmple();
+	  Exmple e1 = new Exmple(50);
+	  System.out.println("e obj:" + e.x+" "+e.y);
+	  System.out.println("e1 obj:"+e1.x+" "+e1.y);
+	 
+	}
+	
+	}
+

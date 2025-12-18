@@ -1,0 +1,14 @@
+
+public class RecursionString{
+  
+  public static void main(String[] args){
+	  String org= "lohya";
+	  String reversed = "";
+	  
+	  for(int i = org.length()-1; i>=0;i--){
+		  reversed += org.charAt(0);
+	  }
+	 
+   System.out.println(reversed(org));
+  }
+}

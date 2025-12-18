@@ -1,0 +1,23 @@
+package StuData;
+ public class Student 
+{
+	private int sno ;
+	        String name;
+	protected String dep;
+	public double fee;
+	
+	public static void main(String[] args) 
+	{
+		Student s1 = new Student();
+		s1.sno = 123;
+		s1.name = "sudha";
+		s1.dep = "java";
+		s1.fee= 32000.00;
+		
+		System.out.println("Hello World!");
+		System.out.println("name:"+ s1.name);
+		System.out.println("sno:"+s1.sno);
+		System.out.println("dep:"+s1.dep);
+		System.out.println("fee:"+s1.fee);
+	}
+}

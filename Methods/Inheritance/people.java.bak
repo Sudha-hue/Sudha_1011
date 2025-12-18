@@ -1,0 +1,36 @@
+public class people 
+{
+	public static void main(String[] args) 
+	{ 
+	    biryani b;
+		b = new biryani();	
+		b.deli();
+		b.notDeli();
+		System.out.println("Hello World!");
+		
+		pizza p;
+		p = new pizza();
+		p.deli();
+		b.notDeli();
+	}	
+		
+	public void placeOrder(FoodRes food){
+		food.deli();
+		orders.add(food);
+	}
+	
+	public void cancelOrder(FoodRes food){
+	   food.notDeli();
+	   orders.remove(food);
+	 }
+	 
+	 public void showOrders() {
+	   System.out.println("\nCurrent Orders:");
+	   for (FoodRes food : orders )
+	   {
+		System.out.println(food.getName() + "-" + food.getStatus());
+	   }
+	 }
+	
+	
+}

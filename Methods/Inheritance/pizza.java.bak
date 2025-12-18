@@ -1,0 +1,14 @@
+public class pizza extends FoodRes 
+{
+	public pizza(){
+	 super ("Pizza");
+	}
+   public void deli(){
+    deliv = true;
+	System.out.println(name +"is delivered");
+   }
+    public void notDeli(){
+	 deliv = false;
+	 System.out.println(name +"is not delivered");
+	}
+}

@@ -1,0 +1,15 @@
+class Test
+  
+{
+	public static void main(String[] args) 
+	{
+		BankAccount acc1 = new BankAccount();
+		acc1.display();
+		
+		acc1.deposit(20000);
+		acc1.withdraw(4000);
+		
+		System.out.print("\nacc1 balance: ");
+		acc1.currentbalance();
+	}
+}

@@ -1,0 +1,15 @@
+ public class biryani extends FoodRes
+{
+	public biryani(){
+	 super ("Birayni");
+	}
+	public void deli(){
+	 deliv = true;
+	 System.out.println(name+"is deliverd");
+	}
+	
+	public void notDeli(){
+	 deliv= false;
+	 System.out.println(name+ "is not deliverd");
+	}
+}

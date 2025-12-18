@@ -1,0 +1,22 @@
+public abstract class FoodRes 
+{
+	protected boolean deliv;
+	protected String name;
+	
+	public FoodRes(String name){
+	  this.name = name;
+	  this.deliv = false;
+	}
+	
+	public abstract void deli();
+	public abstract void notDeli();
+	
+	public String getStatus(){
+	  return deliv ? "Deliverd"	: "Not Deliverd";
+	}
+	
+	public String getName(){
+	  return name;
+	}
+	
+}
